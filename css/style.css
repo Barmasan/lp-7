@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&family=Ubuntu:wght@700&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #090F1F;
+    color: white;
+
+}
+
+
+h1, h2, button{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+.c-btn{
+    color: white;
+    background-color: #E4C957;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    border-radius: 0;
+
+    border: 0;
+}
+.c-btn:hover{
+    color: white;
+    background-color: #817332;
+
+}
+
+/* utilities */
+
+@media (max-width: 576px){
+
+}
+/* utilities END */
+
+
+/* bootstrap rewrite */
+
+
+@media (max-width: 576px){
+
+}
+/* bootstrap rewrite END */
+
+
+/* header */
+header{
+    height: 120px;
+}
+header a, header p{
+    color: #E4C957;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+header a:hover{
+    color: #817332 ;
+}
+header p{
+    margin: 0;
+}
+
+@media (max-width: 576px){
+    
+}
+/* header END */
+
+
+/* jumbotron */
+.first-screen {
+    width: 100vw;
+    height: calc(100vh - 120px);
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-screen__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    background-color: #090F1F;
+    /* border-radius: 30px;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(167,152,73,0.66); 
+box-shadow: 0px 0px 15px 5px rgba(167,152,73,0.66); */
+}
+.first-screen__header{
+    display: flex;
+}
+.first-screen__title{
+    width: 70%;
+    padding: 30px;
+}
+.first-screen__title h1{
+    font-size: 30px;
+    color: #E4C957;
+}
+.first-screen__img-jackpot {
+    width: 30%;
+    flex-shrink: 0;
+}
+.first-screen__img-jackpot img{
+    width: 100%;
+}
+
+
+.first-screen__tabs {
+}
+.first-screen__tabs .nav-item{
+    width: 25%;
+    text-align: center;
+}
+.first-screen__tabs .nav-link{
+    border-radius: 0;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    color: white;
+    border-bottom: 3px solid #E4C957;
+}
+.first-screen__tabs .nav-pills .nav-link.active, .first-screen__tabs .nav-pills .show>.nav-link{
+    background-color: #E4C957;
+
+}
+.first-screen__image{
+    max-width: 100%;
+}
+.first-screen__button {
+    border-radius: 0;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin: 0 0 10px 0;
+}
+.first-screen__caption {
+    color: white;
+    font-style: italic;
+    font-weight: 300;
+}
+
+@media (max-width: 576px){
+    
+}
+/* jumbotron END */
+
+
+/* text-block */
+.content{
+
+}
+.text-block {
+    border-bottom: 3px solid #E4C957;
+    padding: 30px 0;
+}
+.text-block__wrapper {
+
+}
+.text-block h2{
+    color: #E4C957;
+}
+.text-block__image {
+    max-width: 100%;
+}
+.text-block__button {
+
+}
+.text-block__apps {
+    
+}
+
+@media (max-width: 576px){
+    
+}
+/* text-block END */
+
+
+/* app-dowload */
+
+
+@media (max-width: 576px){
+    
+}
+/* app-dowload END */
+
+.promocode {
+    display: flex;
+    height: 75px;
+}
+.promocode__code {
+    flex-grow: 1;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #E4C957;
+
+}
+.promocode__copy-code, .promocode__to-site {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.bonus {
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+.bonus__text-side {
+    width: 60%;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.bonus__text {
+    font-size: 20px;
+}
+.bonus__number {
+    font-size: 50px;
+    color: #E4C957;
+}
+
+.bonus__promocode {
+    height: auto;
+    width: 40%;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: space-between;
+}
+.bonus__promocode .promocode__copy-code, .bonus__promocode .promocode__to-site{
+    height: 50px;
+}
+
+@media (max-width: 576px){
+    .bonus {
+        width: 100%;
+        height: 300px;
+        display: flex;
+    }
+    .bonus__text-side {
+        flex-direction: column;
+
+    }
+    .bonus__text {
+    }
+    .bonus__number {
+    }
+}
