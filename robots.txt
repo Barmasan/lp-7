@@ -1,2 +1,3 @@
 User-agent: *
-Disallow: /
+Sitemap: https://1winrus.ru/sitemap.xml
+Host: https://1winrus.ru/
